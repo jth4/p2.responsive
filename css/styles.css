@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	font-family: 'Nunito Sans', sans-serif;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+
+
+.wrap 		{text-align: center;
+			margin: 0px;}
+			
+header, 
+footer 		{background: #f9f9f9;}
+
+footer 		{margin: 20px;}
+
+main 		{background: #fff;}
+
+h1			{font-weight: 700;
+			padding: 20px;}
+			
+h3 			{padding: 45px;
+			text-transform: uppercase;
+			font-size: .8em;}
+			
+h4 			{padding: 15px 0 5px;
+			font-weight: 400;
+			color: #444;
+			font-size: 1.2em;}
+
+.profile 	{margin-bottom: 25px;}
+
+.profile p	{color: #666;}
+
+.profile img {width: 75%;}
+
+p			{font-weight: 200;
+			line-height: 1.5;
+			padding: 10px 25px;}
+
+img			{width: 100%;
+			padding: 10px 15px;}
+			
+.card		{padding-bottom:40px;}
+
+/* Nav */
+
+ul 			{padding-left: 0;}
+
+.nav		{margin-bottom: 40px;}
+
+.nav li		{background: white;
+			padding: 10px;
+			margin: 5px 20px;}
+
+.nav a		{text-decoration: none;
+			display: block;
+			color: #333;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: .9em;}
+			
+/* Footer */
+
+.main-footer h3 {	}
+.main-footer a		{color: #222;
+					text-decoration: none;
+					font-weight: 400;}
+
+footer a:hover		{color: #888;}
+
+.tow-back a			{
+					text-decoration: none;
+					color: #222;}
+
+.tow				{border-top: 1px solid #999;
+					margin-top: 40px;}
+					
+.tow li				{margin: 20px 0;}
+
+.tow-name			{float: left;
+					margin-right: auto;
+					font-weight: 700;}
+
+.tow-back 			{float: right;
+					text-transform: uppercase;
+					font-size: .8em;
+					font-weight: 700;}
+
+
+/* Media Queries */
+
+@media screen and (min-width:768px){
+	
+}
+
+
+@media screen and (min-width:1024) {
+
+}
+
+/* Clearfix */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
