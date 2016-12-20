@@ -47,7 +47,9 @@ img			{width: 100%;
 
 ul 			{padding-left: 0;}
 
-.nav		{margin-bottom: 40px;}
+.nav		{margin: 0 auto 40px;
+			max-width: 75%;
+}
 
 .nav li		{background: white;
 			padding: 10px;
@@ -90,12 +92,44 @@ footer a:hover		{color: #888;}
 
 /* Media Queries */
 
-@media screen and (min-width:768px){
+@media (min-width: 768px){
 	
-}
+	header, 
+	footer     		{background: pink;}
+	
+	h1				{font-size: 1.5em;
+					padding: 30px;}
+	
+	main			{padding: 20px;}
+	
+	.nav li			{display: inline-block;
+					width: 15%;
+					background-color: transparent;
+					margin: 0;
+					padding: 0;}
+	
+	.profile img	{float: right;
+					width: 43%;}
+	
+	.profile p		{font-size: 1.3em;
+					line-height: 1.4;
+					text-align: left;}
+					
+	.card			{display: inline-block;
+					max-width: 49%;}
+	.card img,
+	.card p			{padding: 5px;
+					margin:;}
+					
+	.main-footer			{max-width: 50%;
+							vertical-align: center;}
+							
+	.tow-back 		{display: none;}
 
-
-@media screen and (min-width:1024) {
+@media (min-width: 1024px) {
+	header {
+		background: blue;
+	}
 
 }
 
