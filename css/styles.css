@@ -1,93 +1,101 @@
-*{
-	margin: 0;
-	font-family: 'Nunito Sans', sans-serif;
-	list-style-type: none;
-	box-sizing: border-box;
-}
+*								{margin: 0;
+								font-family: 'Nunito Sans', sans-serif;
+								list-style-type: none;
+								box-sizing: border-box;}
 
-
-.wrap 		{text-align: center;
-			margin: 0px;}
+.wrap 						{text-align: center;
+								margin:0px;}
 			
 header, 
-footer 		{background: #f9f9f9;}
+footer						{background: yellow;}
 
-footer 		{margin: 20px;}
+main 						{background: #fff;}
 
-main 		{background: #fff;}
+#skills						{font-size: 2em;
+								background: #333;
+								color: white;
+								padding-bottom: 40px;}
 
-h1			{font-weight: 700;
-			padding: 20px;}
+h1							{font-weight: 700;
+								padding: 20px;}
 			
-h3 			{padding: 45px;
-			text-transform: uppercase;
-			font-size: .8em;}
+h3 							{padding: 45px;
+								text-transform: uppercase;
+								font-size: .8em;}
 			
-h4 			{padding: 15px 0 5px;
-			font-weight: 400;
-			color: #444;
-			font-size: 1.2em;}
+h4 							{padding: 15px 0 5px;
+								font-weight: 400;
+								color: #444;
+								font-size: 1.2em;}
 
-.profile 	{margin-bottom: 25px;}
+.profile 					{margin-bottom: 25px;}
 
-.profile p	{color: #666;}
+.profile p					{color: #666;
+								font-size:1.1em;}
 
-.profile img {width: 75%;}
+.profile img		 		{width: 75%;}
 
-p			{font-weight: 200;
-			line-height: 1.5;
-			padding: 10px 25px;}
+p								{font-weight: 200;
+								line-height: 1.5;
+								padding: 10px 25px;}
 
-img			{width: 100%;
-			padding: 10px 15px;}
+img							{width: 100%;
+								padding: 10px 15px;}
 			
-.card		{padding-bottom:40px;}
+.card						{padding-bottom:40px;}
 
 /* Nav */
 
-ul 			{padding-left: 0;}
+ul 								{padding-left: 0;}
 
-.nav		{margin: 0 auto 40px;
-			max-width: 75%;
-}
+.nav							{margin: 0 auto 40px;
+								max-width: 550px;}
 
-.nav li		{background: white;
-			padding: 10px;
-			margin: 5px 20px;}
+.nav li						{background: white;
+								padding: 10px;
+								margin: 5px 20px;}
 
-.nav a		{text-decoration: none;
-			display: block;
-			color: #333;
-			text-transform: uppercase;
-			font-weight: 700;
-			font-size: .9em;}
+.nav a						{text-decoration: none;
+								display: block;
+								color: #333;
+								text-transform: uppercase;
+								font-weight: 700;
+								font-size: .9em;}
+								
+.nav a:hover				{color: white;}
+
+.toe-nav 					{display: none;}
 			
 /* Footer */
 
-.main-footer h3 {	}
-.main-footer a		{color: #222;
-					text-decoration: none;
-					font-weight: 400;}
+footer p					{font-size: 1.2em;}
 
-footer a:hover		{color: #888;}
+footer a					{color: #222;
+								text-decoration: none;
+								font-weight: 400;}
 
-.tow-back a			{
-					text-decoration: none;
-					color: #222;}
+footer a:hover			{color: white;}
 
-.tow				{border-top: 1px solid #999;
-					margin-top: 40px;}
+.footer-wrap				{padding: 0 25px;}
+
+.toe a						{text-decoration: none;
+								color: #222;}
+
+.toe							{border-top: 1px solid #999;
+								margin-top:  70px;
+								padding: 20px 0 90px;}
 					
-.tow li				{margin: 20px 0;}
+/*.toe ul						{padding-top: 0px;}*/
 
-.tow-name			{float: left;
-					margin-right: auto;
-					font-weight: 700;}
+.toe-name				{float: left;
+								margin-right: auto;
+								font-weight: 700;}
 
-.tow-back 			{float: right;
-					text-transform: uppercase;
-					font-size: .8em;
-					font-weight: 700;}
+.toe-back					{float: right;}			
+
+.toe-back a				{text-transform: uppercase;
+								font-size: .8em;
+								font-weight: 700;}
 
 
 /* Media Queries */
@@ -95,43 +103,94 @@ footer a:hover		{color: #888;}
 @media (min-width: 768px){
 	
 	header, 
-	footer     		{background: pink;}
+	footer  					{background: pink;}
 	
-	h1				{font-size: 1.5em;
-					padding: 30px;}
+	h1						{font-size: 1.5em;
+								padding: 30px;}
+								
+	h3						{font-size: 1em;}
 	
-	main			{padding: 20px;}
+	header					{padding: 20px 10px 120px;}
 	
-	.nav li			{display: inline-block;
-					width: 15%;
-					background-color: transparent;
-					margin: 0;
-					padding: 0;}
+	main						{padding: 20px;}
 	
-	.profile img	{float: right;
-					width: 43%;}
+	.nav li					{display: inline-block;
+								width: 20%;
+								background-color: transparent;
+								margin: 0;
+								padding: 0;}
+									
+	.profile img			{float: right;
+								width: 43%;}
 	
-	.profile p		{font-size: 1.3em;
-					line-height: 1.4;
-					text-align: left;}
+	.profile p				{font-size: 1.3em;
+								line-height: 1.4;
+								text-align: left;}
 					
-	.card			{display: inline-block;
-					max-width: 49%;}
+	.card					{display: inline-block;
+								max-width: 49%;
+								vertical-align: top;
+								padding: 5px 5px 50px;}
 	.card img,
-	.card p			{padding: 5px;
-					margin:;}
+	.card p					{padding: 0px;}
 					
-	.main-footer			{max-width: 50%;
-							vertical-align: center;}
+	footer p				{font-size: 1.3em;
+								padding-left: 100px;
+								padding-right: 100px;}
 							
-	.tow-back 		{display: none;}
+	.toe-back 			{display: none;}
+	
+	.toe-nav				{display: flex;
+								float: right;}
+					
+	.toe-nav a				{padding:0 0 0 25px;
+								text-decoration: none;
+								color: #333;
+								text-transform: uppercase;
+								font-size: .8em;
+								font-weight: 700;}
+
 
 @media (min-width: 1024px) {
-	header {
-		background: blue;
-	}
-
-}
+		
+	body,
+	header,
+	footer					{background: lightblue;}
+	
+	header					{padding-top: 40px;}
+	
+	header,
+	main,
+	footer,
+	#skills		 			{max-width: 1024px;
+								margin: 0 auto;}
+	
+	.name		 			{text-align: left;}
+								
+	h1 						{display: inline;
+								margin-right: auto;
+								float: left;
+								padding: 0 25px;
+								margin: 0;}
+			
+	.nav 						{width: 50%;
+								text-align: right;}
+	
+	.nav a					{text-align: center;}
+	
+	nav ul					{float: right;
+								margin: 0; padding: 0;}
+	
+	.nav li					{}
+	
+	.profile img			{margin-left: 0;}
+				
+	.card					{max-width: 33%;}	
+	
+	footer p				{padding-left: 200px;
+								padding-right: 200px;}
+	
+	.toe						{}
 
 /* Clearfix */
 
