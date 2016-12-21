@@ -74,7 +74,7 @@ footer a					{color: #222;
 								text-decoration: none;
 								font-weight: 400;}
 
-footer a:hover			{color: white;}
+footer a:hover				{color: white;}
 
 .footer-wrap				{padding: 0 25px;}
 
@@ -84,8 +84,6 @@ footer a:hover			{color: white;}
 .toe							{border-top: 1px solid #999;
 								margin-top:  70px;
 								padding: 20px 0 90px;}
-					
-/*.toe ul						{padding-top: 0px;}*/
 
 .toe-name				{float: left;
 								margin-right: auto;
@@ -149,9 +147,9 @@ footer a:hover			{color: white;}
 								text-transform: uppercase;
 								font-size: .8em;
 								font-weight: 700;}
+}
 
-
-@media (min-width: 1024px) {
+@media (min-width: 1024px){
 		
 	body,
 	header,
@@ -179,19 +177,17 @@ footer a:hover			{color: white;}
 	.nav a					{text-align: center;}
 	
 	nav ul					{float: right;
-								margin: 0; padding: 0;}
-	
-	.nav li					{}
+								margin: 0; 
+								padding: 0;}
 	
 	.profile img			{margin-left: 0;}
 				
 	.card					{max-width: 33%;}	
 	
 	footer p				{padding-left: 200px;
-								padding-right: 200px;}
-	
-	.toe						{}
+								padding-right: 200px;}	
 
+}
 /* Clearfix */
 
 .group:after {
