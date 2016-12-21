@@ -4,7 +4,7 @@
 								box-sizing: border-box;}
 
 .wrap 						{text-align: center;
-								margin:0px;}
+								margin:0;}
 			
 header, 
 footer						{background: yellow;}
@@ -74,7 +74,7 @@ footer a					{color: #222;
 								text-decoration: none;
 								font-weight: 400;}
 
-footer a:hover				{color: white;}
+footer a:hover			{color: white;}
 
 .footer-wrap				{padding: 0 25px;}
 
@@ -130,7 +130,7 @@ footer a:hover				{color: white;}
 								vertical-align: top;
 								padding: 5px 5px 50px;}
 	.card img,
-	.card p					{padding: 0px;}
+	.card p					{padding: 0;}
 					
 	footer p				{font-size: 1.3em;
 								padding-left: 100px;
@@ -166,7 +166,6 @@ footer a:hover				{color: white;}
 	.name		 			{text-align: left;}
 								
 	h1 						{display: inline;
-								margin-right: auto;
 								float: left;
 								padding: 0 25px;
 								margin: 0;}
@@ -188,6 +187,7 @@ footer a:hover				{color: white;}
 								padding-right: 200px;}	
 
 }
+
 /* Clearfix */
 
 .group:after {
